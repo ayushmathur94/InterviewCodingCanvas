@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // 5
 // Given an array and a value , remove all instances of that value in place and return the new length.
-public class RemoveAllInstancesofaNum {
+public class RemoveAllInstancesofaNum_P5A1 {
 
 	private static int[] removeAllInstancsofNum(int arr[] , int num){
 		

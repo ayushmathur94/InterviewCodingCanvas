@@ -9,7 +9,7 @@ import java.util.Arrays;
  * must get more candies. Alice wants to minimize the total number of candies she must buy.
 */
 
-public class CandiesDistributionProblem {
+public class CandiesDistributionProblem_P7 {
 
 	private static long candiesSolve(int arr[] , int n){
 		

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*  Given an array of n integers  arr[], return an array output such that output array prod[i] is equal to product of all the elements
 * of arr[] , except arr[i]. Solve it without division operator and in O(n).
 */
-public class ProductofArrElementsExpSelfA2 {
+public class ProductofArrElementsExpSelfA2_P9A2 {
 
 	public static int[] productExSelf(int arr[] , int n){
 		

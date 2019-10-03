@@ -5,7 +5,7 @@ import java.util.Arrays;
 // 6
 //Given an array, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
-public class MoveAllZeroEnd {
+public class MoveAllZeroEnd_P6 {
 
 	private static void moveAllZero(int arr[], int n){
 		

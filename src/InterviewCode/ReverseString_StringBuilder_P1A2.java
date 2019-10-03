@@ -3,7 +3,7 @@ package InterviewCode;
 // 1
 //Print Words of given string in reverse.
 
-public class ReverseString_StringBuilder {
+public class ReverseString_StringBuilder_P1A2 {
 
 	private static String reverseWordsStringBuilder(String strng){
 		

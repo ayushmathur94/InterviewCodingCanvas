@@ -5,7 +5,7 @@ import java.util.Arrays;
 //10
 // Remove duplicates from an array if duplicates are allowed at most twice.
 
-public class RemovDupliIFAllowed {
+public class RemovDupliIFAllowed_P10 {
 	
 	private static int removeifAllowed(int arr[] , int n){
 		

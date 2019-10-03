@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // 4
 // Remove Duplicates from input unsorted Array
-public class RemoveDuplicatesUnsortedArray {
+public class RemoveDuplicatesUnsortedArray_P4 {
 
 	private static int removeDupliFromUnsortedArray(int arr[], int n){
 		

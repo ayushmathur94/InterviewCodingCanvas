@@ -5,7 +5,7 @@ package InterviewCode;
  * to trap after raining.
  */
 
-public class TrappingWater {
+public class TrappingWater_P8 {
 
 	static int arr[] = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
 	

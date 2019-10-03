@@ -2,7 +2,7 @@ package InterviewCode;
 
 // 3
 // Remove Duplicates from sorted array without use of extra space (i.e. without using auxiliary/temp array)
-public class RemoveDuplicatesSortedArrayNoEx {
+public class RemoveDuplicatesSortedArrayNoEx_P3 {
 
 	private static int removeDupliSortedNoex(int arr[] , int n){
 		

@@ -6,7 +6,7 @@ package InterviewCode;
 *
 */
 
-public class SubArrayMinLength {
+public class SubArrayMinLength_P11 {
 
 	
 	

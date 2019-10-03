@@ -2,7 +2,7 @@ package InterviewCode;
 
 // 2
 // Remove Duplicates from sorted Array (Can use extra Space) i.e. auxiliary array.
-public class RemoveDuplicates_SortedArrayEx {
+public class RemoveDuplicates_SortedArrayEx_P2 {
 
 	private static int RemoveDuplicates(int arr[] , int n){
 		

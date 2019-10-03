@@ -7,7 +7,7 @@ import javax.swing.plaf.synth.SynthSeparatorUI;
 //5
 //Given an array and a value , remove all instances of that value in place and return the new length.
 
-public class RemoveAllInstanceApproach2 {			
+public class RemoveAllInstanceApproach2_P5A2 {			
 
 	private static int[] removeAllInstanceUsingStream(int arr[], int num){
 		
