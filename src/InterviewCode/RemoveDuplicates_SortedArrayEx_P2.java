@@ -17,17 +17,18 @@ public class RemoveDuplicates_SortedArrayEx_P2 {
 		for(int i = 0 ; i < n-1; i++){
 			
 			if(arr[i]!=arr[i+1]){
-				temp[j++] =  arr[i];
+				temp[j] =  arr[i];
+				j++;
 			}
 			
 		}
 		
-		temp[j++] = arr[n-1];
+		temp[j] = arr[n-1];
 		
 		
 		System.out.println("After 1st for loop, j is : " + j);
 		
-		for(int i= 0 ; i < j ; i++){
+		for(int i= 0 ; i < j+1 ; i++){
 			arr[i] = temp[i];
 		}
 	
@@ -47,7 +48,7 @@ public class RemoveDuplicates_SortedArrayEx_P2 {
 		
 		System.out.println("Returned value of n is " + n);
 		
-		for(int i = 0 ; i < n ; i++){
+		for(int i = 0 ; i < n+1 ; i++){
 			
 			System.out.println(inputarr[i]);
 			
