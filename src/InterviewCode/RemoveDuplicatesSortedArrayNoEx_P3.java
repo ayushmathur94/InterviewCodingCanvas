@@ -14,10 +14,11 @@ public class RemoveDuplicatesSortedArrayNoEx_P3 {
 	  
 	  for(int i = 0 ; i <n-1 ; i ++ ){
 		  if(arr[i]!=arr[i+1]){
-			  arr[j++] = arr[i];
+			  arr[j] = arr[i];
+			  j++ ;
 		  }
 	  }
-	  arr[j++] = arr[n-1];
+	  arr[j] = arr[n-1];
 	  
 	  
 	  return j;
@@ -32,7 +33,7 @@ public class RemoveDuplicatesSortedArrayNoEx_P3 {
 		
 		k = removeDupliSortedNoex(array, k);
 		
-		for(int i = 0 ; i<k ; i ++){
+		for(int i = 0 ; i< k+1 ; i ++){
 			System.out.println(array[i]);
 		}
 		
